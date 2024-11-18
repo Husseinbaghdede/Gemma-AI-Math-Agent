@@ -1,4 +1,9 @@
-langchain 
-python-dotenv
 streamlit
-langchain_groq
+langchain
+langchain-groq
+langchain-community
+openai
+python-dotenv
+requests
+beautifulsoup4
+wikepedia
