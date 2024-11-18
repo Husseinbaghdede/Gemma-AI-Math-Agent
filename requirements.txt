@@ -6,4 +6,4 @@ openai
 python-dotenv
 requests
 beautifulsoup4
-wikepedia
+wikipedia
