@@ -23,9 +23,9 @@ if not groq_api_key:
     st.stop()
 
 
-openai_api_key = os.getenv('OPENAI_API_KEY')
+# openai_api_key = os.getenv('OPENAI_API_KEY')
 
-llm = ChatOpenAI(api_key=openai_api_key, model="gpt-4-turbo")
+# llm = ChatOpenAI(api_key=openai_api_key, model="gpt-4-turbo")
 
 # Initialize LLM
 llm = ChatGroq(api_key=groq_api_key, model="Gemma2-9b-It")
